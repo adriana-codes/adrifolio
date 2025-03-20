@@ -1,6 +1,7 @@
 import "./index.css";
 import "./App.css";
 import NavBar from "./NavBar";
+import FooterInfo from "./FooterInfo";
 
 function App() {
   return (
@@ -8,10 +9,9 @@ function App() {
       <header className="App-header">
         <NavBar />
       </header>
-      <footer>
-        {" "}
-        <p>Adri Díaz -- 2025 ©</p>{" "}
-      </footer>
+      <main></main>
+
+      <FooterInfo />
     </div>
   );
 }

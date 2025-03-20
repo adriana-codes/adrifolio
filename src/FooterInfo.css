@@ -1,0 +1,14 @@
+.FooterInfo {
+  margin: 0;
+  max-width: 100%;
+}
+
+.FooterInfo .fa-brands {
+  color: #312150;
+  margin-right: 6px;
+}
+
+.FooterInfo h6 {
+  font-family: Space Grotesk;
+  opacity: 0.4;
+}
