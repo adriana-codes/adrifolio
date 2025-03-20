@@ -10,8 +10,9 @@ function App() {
         <NavBar />
       </header>
       <main></main>
-
-      <FooterInfo />
+      <footer>
+        <FooterInfo />
+      </footer>
     </div>
   );
 }
