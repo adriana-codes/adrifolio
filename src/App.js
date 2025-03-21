@@ -2,6 +2,7 @@ import "./index.css";
 import "./App.css";
 import NavBar from "./NavBar";
 import FooterInfo from "./FooterInfo";
+import Hero from "./Hero";
 
 function App() {
   return (
@@ -9,7 +10,10 @@ function App() {
       <header className="App-header">
         <NavBar />
       </header>
-      <main></main>
+      <main>
+        <Hero />
+      </main>
+      <hr />
       <footer>
         <FooterInfo />
       </footer>

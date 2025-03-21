@@ -1,0 +1,17 @@
+.Hero h1 {
+  font-family: Climate Crisis;
+}
+
+.Hero h2 {
+  font-family: Gasoek One;
+}
+
+.Hero h5 {
+  text-align: start;
+}
+
+.Hero img {
+  width: 70%;
+  max-width: 100%;
+  border-radius: 8px;
+}
