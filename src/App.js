@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./NavBar";
 import FooterInfo from "./FooterInfo";
 import Hero from "./Hero";
+import TechSkills from "./TechSkills";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </header>
       <main>
         <Hero />
+        <TechSkills />
       </main>
       <hr />
       <footer>
