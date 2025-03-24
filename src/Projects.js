@@ -29,7 +29,12 @@ function Projects() {
             <span className="Tools-btn">React.js</span>
           </div>
           <div>
-            <a href="https://dictionappy.netlify.app/" className="Btn-demo">
+            <a
+              href="https://dictionappy.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="Btn-demo"
+            >
               Demo
             </a>
           </div>
@@ -58,6 +63,8 @@ function Projects() {
           <div>
             <a
               href="https://adrianacodes-react-weather-app.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
               className="Btn-demo"
             >
               Demo
@@ -89,6 +96,8 @@ function Projects() {
           <div>
             <a
               href="https://thecocktailmaker.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
               className="Btn-demo"
             >
               Demo
@@ -116,6 +125,8 @@ function Projects() {
           <div>
             <a
               href="https://adriana-codes-worldclock.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
               className="Btn-demo"
             >
               Demo
