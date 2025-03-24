@@ -1,7 +1,7 @@
 .TechSkills {
   margin: 0;
   padding: 40px;
-  background-color: antiquewhite;
+  background-color: #f8f3f7;
 }
 
 .TechSkills .grid {
@@ -21,6 +21,7 @@
 .rotating {
   animation: rotating 20s linear infinite;
 }
+
 @keyframes rotating {
   0% {
     transform: rotate(0deg);

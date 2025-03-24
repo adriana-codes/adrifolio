@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import FooterInfo from "./FooterInfo";
 import Hero from "./Hero";
 import TechSkills from "./TechSkills";
+import Projects from "./Projects";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <main>
         <Hero />
         <TechSkills />
+        <Projects />
       </main>
       <hr />
       <footer>

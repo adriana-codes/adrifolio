@@ -17,7 +17,7 @@ import seo from "./images/tech_logos/seo.png";
 function TechSkills() {
   return (
     <div className="TechSkills">
-      <h4>Skills</h4>
+      <h3>Skills</h3>
       <p>Skills, tools and technologies that I enjoy working with:</p>
       <div className="grid">
         <div className="skill">

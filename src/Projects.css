@@ -1,0 +1,52 @@
+.Projects {
+  margin-top: 30px;
+}
+
+.Projects img {
+  height: 550px;
+  width: 550px;
+}
+
+.Projects .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.Projects section {
+  background-color: #ffff;
+  margin: 60px 85px;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.Projects .Project-block {
+  text-align: start;
+  padding-top: 100px;
+}
+
+.Tools-section {
+  margin-bottom: 10px;
+}
+
+.Tools-btn {
+  border: 1px solid #987da6;
+  background-color: #f8f3f7;
+  color: #a2a0a1dd;
+  border-radius: 15px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  gap: 1;
+}
+
+.Btn-demo {
+  background-color: #987da6;
+  color: #ffffff;
+  padding: 5px 25px;
+  border-radius: 18px;
+  transition: all 0.2 ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
