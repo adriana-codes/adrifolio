@@ -52,6 +52,11 @@ img:hover {
   transition: all 0.2 ease-in-out;
 }
 
-a {
+.Projects a {
   text-decoration: none;
+}
+
+.Projects h4,
+h5 {
+  color: #312150;
 }
