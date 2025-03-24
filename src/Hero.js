@@ -3,7 +3,7 @@ import selfie from "./images/dev/IMG_2397-removebg-preview.png";
 
 function Hero() {
   return (
-    <div className="Hero container">
+    <div className="Hero container" id="about">
       <div className="row">
         <div className="col-8">
           <h1>
