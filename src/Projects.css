@@ -7,6 +7,11 @@
   width: 550px;
 }
 
+img:hover {
+  transform: scale(1.1);
+  transition: 0.8s ease-in-out;
+}
+
 .Projects .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -15,7 +20,7 @@
 
 .Projects section {
   background-color: #ffff;
-  margin: 55px 250px;
+  margin: 75px 250px;
   padding: 25px;
   border-radius: 8px;
 }
