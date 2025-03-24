@@ -1,0 +1,23 @@
+.Contact .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Contact .Contactfo {
+  margin-top: 150px;
+  text-align: end;
+}
+
+.Contact img {
+  display: flex;
+  float: inline-start;
+}
+
+.Contact h1 {
+  font-family: Gasoek one;
+}
+
+.Contact a {
+  text-decoration: none;
+  color: #987da6;
+}
