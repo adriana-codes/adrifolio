@@ -19,7 +19,12 @@ function FooterInfo() {
           >
             <i class="fa-brands fa-github fa-2x"></i>
           </a>
-          <a href="/" target="_blank" rel="noreferrer" title="LinkedIn Profile">
+          <a
+            href="https://www.linkedin.com/in/adrianadiazbetancourt/"
+            target="_blank"
+            rel="noreferrer"
+            title="LinkedIn Profile"
+          >
             <i class="fa-brands fa-linkedin fa-2x"></i>
           </a>
         </div>
