@@ -5,11 +5,12 @@
 }
 
 .TechSkills .grid {
+  max-width: 1200px;
   display: grid;
-  margin: 50px;
+  margin: 30px;
   grid-template-columns: repeat(5, 1fr);
   row-gap: 40px;
-  margin-inline: 500px;
+  margin-inline: 200px;
 }
 
 .TechSkills img {
