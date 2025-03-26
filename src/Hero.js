@@ -14,6 +14,7 @@ function Hero() {
             Specialized in front-end web development and focused on delivering
             simple yet user-friendly digital products.
           </h4>
+          <br />
           <h5 className="desc desc-sm">
             I am a bilingual (English and Spanish) professional with a
             background in Advertising and Marketing that has always enjoyed

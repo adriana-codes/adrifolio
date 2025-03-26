@@ -20,14 +20,16 @@
 
 .Projects section {
   background-color: #ffff;
-  margin: 75px 250px;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 30px;
   padding: 25px;
   border-radius: 8px;
 }
 
 .Projects .Project-block {
   text-align: start;
-  padding-top: 70px;
+  padding-top: 60px;
   padding-right: 40px;
 }
 
@@ -60,3 +62,43 @@
 h5 {
   color: #312150;
 }
+
+.Projects .highlight {
+  position: relative;
+}
+
+.Projects .highlight:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: #987da6b0;
+  opacity: 0.5;
+  bottom: 0px;
+}
+
+@media (max-width: 970px) {
+  .Projects section {
+    max-width: 720px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px 25px 20px;
+  }
+
+  .Projects .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Projects .Project-block {
+    padding: 0;
+    text-align: center;
+  }
+
+  .Projects img {
+    border-radius: 8px;
+  }
+}
+
+/*color: #987da69f;
+*/

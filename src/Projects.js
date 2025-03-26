@@ -7,7 +7,10 @@ import world_clock from "./images/projects/world-clock.png";
 function Projects() {
   return (
     <div className="Projects" id="projects">
-      <h3> Projects</h3>
+      <h3>
+        {" "}
+        <span className="highlight">Projects</span>
+      </h3>
       <p>Here is a sample of things I've built:</p>
       <section className="grid">
         <div>

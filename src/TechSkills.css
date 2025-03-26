@@ -30,8 +30,20 @@
   }
 }
 
-@media (min-width 1400px) {
+@media (min-width: 1400px) {
   .TechSkills .grid {
+    margin: 50px;
     margin-inline: 500px;
+  }
+}
+
+@media (max-width: 890px) {
+  .TechSkills .grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+  }
+
+  .TechsSkills img {
+    padding: 15px;
   }
 }
