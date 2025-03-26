@@ -6,10 +6,9 @@
 
 .TechSkills .grid {
   display: grid;
-  margin: 30px;
+  margin: 30px 120px;
   grid-template-columns: repeat(5, 1fr);
   row-gap: 40px;
-  margin-inline: 200px;
 }
 
 .TechSkills img {
@@ -32,15 +31,15 @@
 
 @media (min-width: 1400px) {
   .TechSkills .grid {
-    margin: 50px;
     margin-inline: 500px;
   }
 }
 
-@media (max-width: 890px) {
+@media (max-width: 960px) {
   .TechSkills .grid {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 15px;
+    row-gap: 35px;
   }
 
   .TechsSkills img {
