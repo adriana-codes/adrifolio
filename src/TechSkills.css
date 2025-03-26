@@ -29,12 +29,6 @@
   }
 }
 
-@media (min-width: 1400px) {
-  .TechSkills .grid {
-    margin-inline: 500px;
-  }
-}
-
 @media (max-width: 960px) {
   .TechSkills .grid {
     grid-template-columns: repeat(4, 1fr);
