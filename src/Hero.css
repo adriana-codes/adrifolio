@@ -14,3 +14,26 @@
   max-width: 100%;
   border-radius: 8px;
 }
+
+@media (max-width: 990px) {
+  .Hero img {
+    position: relative;
+    margin-top: 100px;
+  }
+
+  .Hero h1 {
+    font-size: 1.2em;
+  }
+
+  .Hero .desc-sm {
+    font-size: 1em;
+  }
+
+  .Hero h2 {
+    font-size: 1em;
+  }
+
+  .Hero h5 {
+    font-size: 0.3em;
+  }
+}

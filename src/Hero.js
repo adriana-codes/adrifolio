@@ -12,25 +12,31 @@ function Hero() {
           <h2 className="mb-5 job">Software Developer</h2>
           <h4>
             Specialized in front-end web development and focused on delivering
-            simple yet user-friendly digital products.
+            simple yet user-friendly digital experiences.
           </h4>
           <br />
           <h5 className="desc desc-sm">
             I am a bilingual (English and Spanish) professional with a
             background in Advertising and Marketing that has always enjoyed
             creating and learning new things. My interest in programming began
-            with Myspace back in the early 2000's but it wasn't until I met my
-            partner that my curiosity grew.
-            <br /> My adventurous spirit has led me to explore, & deepen my
-            knowledge while loving creating things.
+            with Myspace back in the early 2000's but it hasn't been until three
+            years ago when I met my partner that my curiosity grew even more.
+            <br />
+            Consequently, inspired by a great role model & inter laced with my
+            adventurous spirit I've decided to explore this transition to tech,
+            & deepen my knowledge while loving creating things.
           </h5>
-
+          <br />
           <h6>
             Based in Barcelona, Spain <br /> & the internet ⌨️
           </h6>
         </div>
         <div className="col-4">
-          <img src={selfie} alt="Adriana Díaz - Web Developer"></img>
+          <img
+            src={selfie}
+            alt="Adriana Díaz - Web Developer"
+            className="img-fluid"
+          ></img>
         </div>
       </div>
     </div>
