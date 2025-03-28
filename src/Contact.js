@@ -18,7 +18,7 @@ function Contact() {
               I'd love to hear from you!
             </h4>
 
-            <p>📍 Based in Barcelona, SP and the Internet</p>
+            <p>📍 Based in Barcelona, ES and the Internet</p>
           </div>
         </div>
         <div>
