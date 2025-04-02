@@ -2,7 +2,7 @@ import logo from "./images/favicon-adri-portfolio.png";
 
 function NavBar() {
   return (
-    <nav class="navbar navbar-expand-lg bg-none container-fluid">
+    <nav class="navbar fixed-top navbar-expand-lg bg-none container-fluid">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
           <img src={logo} alt="Adri logo" width="35" />
