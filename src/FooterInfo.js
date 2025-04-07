@@ -20,7 +20,7 @@ function FooterInfo() {
             <i class="fa-brands fa-github fa-2x"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/adrianadiazbetancourt/"
+            href="https://www.linkedin.com/in/adri-anadiaz/"
             target="_blank"
             rel="noreferrer"
             title="LinkedIn Profile"
